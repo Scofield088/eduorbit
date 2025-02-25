@@ -26,3 +26,4 @@ dist-ssr
 
 orb1/config/credentials.json.json
 orb1/src/utils/apiUtils.js
+orb1/src/components/Chatbot.jsx
