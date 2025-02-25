@@ -1,0 +1,173 @@
+/* GroupRoomPage.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #363e4d, #61dafb);
+  color: #f8f9fa;
+}
+
+.group-room {
+  padding-top: 6rem; /* Space for the header */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+head.header {
+  position: fixed; /* Ensures the header stays at the top */
+  top: 0;
+  left: 0;
+  width: 1000px;
+  background: #20232a; /* Dark background for header */
+  color: #61dafb; /* React logo color for text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.5rem; /* Slightly larger font for header prominence */
+  z-index: 1000; /* Keeps header above other elements */
+}
+
+.group-room {
+  padding-top: 1rem; /* Add padding to prevent overlap with the fixed header */
+}
+
+
+.options, .create-room, .join-room, .chat-window {
+  background: #f7f5f8;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  margin: 1rem;
+}
+
+h2 {
+  color: #20232a;
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  color: #20232a;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.option-button {
+  background: #007bff;
+  color: white;
+  margin: 1rem;
+}
+
+.option-button:hover {
+  background: #0056b3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.action-button {
+  background: #28a745;
+  color: white;
+  margin-top: 1rem;
+}
+
+.action-button:hover {
+  background: #1e7e34;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.send-button {
+  background: #17a2b8;
+  color: white;
+}
+
+.send-button:hover {
+  background: #138496;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.leave-room-button {
+  background: #dc3545;
+  color: white;
+  margin-top: 1rem;
+}
+
+.leave-room-button:hover {
+  background: #c82333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="file"] {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 1.5rem);
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+input[type="text"]:focus, input[type="file"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.8);
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background: #ffffff;
+}
+
+.message {
+  margin: 0.5rem 0;
+  color: #20232a;
+}
+
+.message strong {
+  color: #007bff;
+}
+
+.file-uploads {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.file-uploads ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.file-uploads li a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.file-uploads li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.file-uploads input {
+  margin-top: 0.5rem;
+}

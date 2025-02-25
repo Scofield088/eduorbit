@@ -1,0 +1,64 @@
+.challenges-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.manual-quiz, .ai-quiz, .leaderboard {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.quiz-preview, .leaderboard ul {
+  margin-top: 10px;
+}
+
+.quiz-preview h3 {
+  color: #007bff;
+}
+
+.quiz-preview ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leaderboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  margin: 5px 0;
+  padding: 5px;
+  background: #e9ecef;
+  border-radius: 4px;
+}

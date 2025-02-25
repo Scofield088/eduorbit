@@ -1,0 +1,214 @@
+/* General Styling for Progress Page */
+.progress-page {
+  background: linear-gradient(to right, #7c8dfa, #b7cdee);
+  color: #333;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Profile Section */
+.profile-section {
+  background: #bdf4d7;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.p{
+  color: #0f0f0f !important;
+}
+.profile-section h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.profile-section p {
+  margin: 0.5rem 0;
+}
+
+/* Todo Section */
+.todo-section {
+  background: #d8ebf3;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-section h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.todo-section p {
+  color: #262525;
+  margin-bottom: 1rem;
+}
+
+.add-todo {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.add-todo input, .add-todo select {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.add-todo button {
+  padding: 0.8rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 0;
+}
+
+.add-todo button:hover {
+  background: #0056b3;
+}
+
+/* Todo List */
+.todo-list {
+  margin-top: 1rem;
+}
+
+.todo-list h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.todo-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: rgb(43, 43, 43);
+  cursor: pointer;
+}
+
+.todo-list li span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.todo-list li button {
+  background: #fb4456;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list li button:hover {
+  background: #c82333;
+}
+
+/* Progress Metrics Section */
+.progress-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.progress-header h2 {
+  color: #007bff;
+}
+
+.progress-metrics {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.progress-bar-wrapper {
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem 0;
+  height: 20px;
+}
+
+.progress-bar {
+  background: #007bff;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+/* Test Scores Section */
+.test-scores-section {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.test-scores-section h3 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.test-scores-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.test-scores-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Milestones Section */
+.milestones-section {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.milestones-section h3 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.milestones-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.milestones-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.milestone-title {
+  font-weight: bold;
+}
+
+.milestone-date {
+  color: rgb(42, 41, 41);
+}

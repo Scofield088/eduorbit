@@ -1,0 +1,55 @@
+.sharec-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #8492fa, #a5d3ea); /* Gradient background */
+    min-height: 65vh; /* Minimum height for balance */
+  }
+  
+  .sharec-card {
+    background: #ffffff; /* Card background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 25px;
+    text-align: center;
+    max-width: 500px; /* Maximum width for the card */
+    width: 90%; /* Responsive width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  }
+  
+  .sharec-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  .sharec-card h2 {
+    font-size: 2rem; /* Larger font size for heading */
+    color: #2b6777; /* Primary color for heading */
+    margin-bottom: 15px; /* Spacing below heading */
+  }
+  
+  .sharec-card p {
+    font-size: 1.1rem; /* Slightly larger font size for paragraphs */
+    color: #666; /* Text color */
+    margin-bottom: 25px; /* Spacing below paragraph */
+    line-height: 1.6; /* Improved line height for readability */
+  }
+  
+  .sharec-button {
+    background-color: #2b6777; /* Button color */
+    color: #ffffff; /* White text color */
+    font-size: 1rem; /* Font size for button text */
+    font-weight: bold; /* Bold text for emphasis */
+    padding: 12px 25px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle button shadow */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .sharec-button:hover {
+    background-color: #1e4c5e; /* Darker shade on hover */
+  }
+  

@@ -1,0 +1,53 @@
+.cgpa-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #d1e7f5, #88d0f5); /* Gradient background */
+  min-height: 65vh; /* Minimum height for visual balance */
+}
+
+.cgpa-card {
+  background: #ffffff; /* White background for the card */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 25px;
+  text-align: center;
+  max-width: 500px; /* Maximum width for the card */
+  width: 90%; /* Responsive width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.cgpa-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.cgpa-card h2 {
+  font-size: 2rem; /* Larger font size for the heading */
+  color: #006666; /* Teal color for the heading */
+  margin-bottom: 15px; /* Spacing below the heading */
+}
+
+.cgpa-card p {
+  font-size: 1.1rem; /* Slightly larger font size for paragraphs */
+  color: #555; /* Dark gray color for text */
+  margin-bottom: 25px; /* Spacing below paragraphs */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.cgpa-button {
+  background-color: #006666; /* Button color matching heading color */
+  color: #ffffff; /* White text color for button */
+  font-size: 1rem; /* Font size for button text */
+  font-weight: bold; /* Bold text for emphasis */
+  padding: 12px 25px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners on button */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for button */
+}
+
+.cgpa-button:hover {
+  background-color: #004c4c; /* Darker shade on hover */
+}

@@ -1,0 +1,68 @@
+.recommendation-page {
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px; /* Center the content */
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    height: 500px;
+  }
+  
+  h1 {
+    color: #333; 
+  }
+  .rec p{
+    color: #333;
+  }
+  input {
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 42px); /* Full width minus padding and border */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px; /* Larger text for better readability */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px; /* Larger text for better readability */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .recommendation {
+    background-color: #ffffff; /* White background for recommendations */
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    width: auto; 
+    max-width: calc(100% - 20px); /* Responsive width */
+     box-shadow: rgba(0,0,0,0.1) -1px -1px 5px, rgba(0,0,0,0.1) -2px -2px 10px; /* Subtle shadow effect */
+     border-radius: 8px; 
+     transition: transform .2s, box-shadow .2s; 
+  }
+  
+  .recommendation:hover {
+     transform: scale(1.02); /* Slightly enlarge on hover */
+     box-shadow: rgba(0,0,0,0.2) -1px -1px 8px, rgba(0,0,0,0.2) -2px -2px 15px; /* Enhanced shadow on hover */
+  }
+  
+  .recommendation p {
+     margin: 5px; /* Add spacing between paragraphs */
+     font-size:16px; /* Consistent font size for recommendations */
+     color:#555; /* Dark gray text for better readability */
+  }
+  

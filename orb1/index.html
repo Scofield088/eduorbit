@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduOrbit</title>
+    <style>
+      /* Optional: Add default styles to ensure smooth appearance during loading */
+      .custom-chatbot {
+        width: 80px; /* Adjust size as needed */
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.embeddedChatbotConfig = {
+        chatbotId: "h7bw2swcBS7OQLC0s7R6T",
+        domain: "www.chatbase.co"
+      };
+    </script>
+    <script
+      src="https://www.chatbase.co/embed.min.js"
+      chatbotId="h7bw2swcBS7OQLC0s7R6T"
+      domain="www.chatbase.co"
+      defer>
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Custom JavaScript to resize chatbot -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const interval = setInterval(() => {
+          const chatbotIframe = document.querySelector('iframe[chatbotId="h7bw2swcBS7OQLC0s7R6T"]');
+          if (chatbotIframe) {
+            chatbotIframe.style.width = "100px"; // Adjust width as needed
+            chatbotIframe.style.height = "100px"; // Adjust height as needed
+            clearInterval(interval); // Stop checking once the iframe is found and modified
+          }
+        }, 100); // Check every 100ms
+      });
+    </script>
+  </body>
+</html>

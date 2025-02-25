@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #43698f; /* Darker blue for a sleek look */
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Circular logo */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center; /* Aligns links and icons */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-links a:hover {
+  color: #61dafb; /* React blue color for hover effect */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.profile-icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+.profile-icon:hover {
+  transform: scale(1.2); /* Subtle zoom for interactivity */
+}
