@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules/
+node_modules
 dist
 dist-ssr
 *.local
@@ -24,6 +24,5 @@ dist-ssr
 *.sw?
 
 
-orb1/config/credentials.json.json
-orb1/src/utils/apiUtils.js
-orb1/src/components/Chatbot.jsx
+orb/config/credentials.json.json
+orb/src/components/ChatBot.jsx
