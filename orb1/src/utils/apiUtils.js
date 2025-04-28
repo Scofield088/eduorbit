@@ -3,7 +3,7 @@ export async function fetchQuizFromAI(topic) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer `,
       },
       body: JSON.stringify({
         model: 'text-davinci-003',
